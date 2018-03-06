@@ -1,0 +1,11 @@
+#!/usr/bin/expect -f
+#package require expect
+
+
+set username $tcl_platform(user)
+#puts $username
+spawn sudo "chown ftpuser:ftpuser /var/www/hosts/[lindex $argv 0]"
+
+expect ": " {
+    sleep 2; send -- "MY_GamB1t\r"
+}

@@ -1,0 +1,10 @@
+Domain: letsbuildatinyhome.com, User: tazdij
+spawn /bin/bash
+tazdij@host1:~/statichost$ sudo chown ftpuser:ftpuser /var/www/hosts/letsbuildatinyhome.com
+[sudo] password for tazdij: 
+tazdij@host1:~/statichost$ exit
+Domain: donaldduvall.com, User: tazdij
+spawn /bin/bash
+tazdij@host1:~/statichost$ sudo chown ftpuser:ftpuser /var/www/hosts/donaldduvall.com
+[sudo] password for tazdij: 
+tazdij@host1:~/statichost$ exit

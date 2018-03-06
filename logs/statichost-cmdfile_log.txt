@@ -1,0 +1,16 @@
+
+Received:  /opt/tazdij/statichost/incoming/DeleteHost.xml
+Parsing file:  /opt/tazdij/statichost/incoming/DeleteHost.xml
+Command Found:  DeleteHost   {}
+Called Command: DeleteHost
+Received:  /opt/tazdij/statichost/incoming/NewHost.xml
+Parsing file:  /opt/tazdij/statichost/incoming/NewHost.xml
+Command Found:  NewHost   {'AccountId': '8'}
+Called Command: NewHost
+SELECT * FROM ftpuser WHERE userid = 'letsbuildatinyhome.com'
+Error creating homedir:  [Errno 2] No such file or directory: 'expect'
+Domain:  letsbuildatinyhome.com
+Password:  {md5}KTh+2te9WEtqjZokyqf8Nw==
+Features:  {'phpenabled': '0', 'statichosting': '1', 'editablecontent': '0'}
+
+Exit or Interrupt received, exiting!

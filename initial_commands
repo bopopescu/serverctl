@@ -1,0 +1,3 @@
+spawn sudo chown ftpuser:ftpuser /var/www/hosts/letsbuildatinyhome.com
+[sudo] password for dduvall: spawn sudo chown ftpuser:ftpuser /var/www/hosts/letsbuildatinyhome.com
+sudo: 

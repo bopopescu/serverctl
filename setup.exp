@@ -1,0 +1,2 @@
+unset -nocomplain ::env(SSH_AUTH_SOCK)   ;# This one is session-bound anyway
+puts [list array set ::env [array get ::env]]
